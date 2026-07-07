@@ -1,42 +1,42 @@
 # MDI2-112 - Mobile Development II
 
-Repositorio oficial de código fuente para el curso **Mobile Development II (MDI2-112)**.
+Official source code repository for **Mobile Development II (MDI2-112)**.
 
-El curso está organizado en 4 clases introductorias sobre desarrollo para Android Wearables.
+The course is organized into 4 introductory classes focused on Android Wearables development.
 
-## Estrategia de ramas
+## Branch Strategy
 
-Este repositorio usa una estrategia simple pensada para clase:
+This repository uses a simple branch strategy designed for classroom use:
 
-- `main` contiene la versión estable más reciente y completa de la app.
-- `class-*` contiene el código usado durante cada clase.
-- `prep/*` contiene trabajo de preparación, pruebas y experimentación del instructor.
+- `main` contains the latest stable completed version of the app.
+- `class-*` contains the code used during each lecture.
+- `prep/*` contains instructor preparation, testing, and experimentation work.
 
-No se debe desarrollar directamente sobre `main`. El trabajo debe prepararse en ramas `prep/*` o construirse durante clase en ramas `class-*`.
+Development should not happen directly on `main`. Work should be prepared on `prep/*` branches or built during class on `class-*` branches.
 
-## Ramas de clase
+## Class Branches
 
 - `class-01-wear-compose-basics`
 - `class-02-state-and-interaction`
 - `class-03-lists-and-navigation`
 - `class-04-final-app`
 
-Estas ramas representan el estado del código usado durante cada sesión. Los alumnos pueden revisarlas como referencia para seguir el avance del curso.
+These branches represent the code used during each class session. Students can review them as references while following the course progression.
 
-## Ramas de preparación
+## Instructor Preparation Branches
 
 - `prep/class-01`
 - `prep/class-02`
 - `prep/class-03`
 - `prep/class-04`
 
-Estas ramas son para preparación del instructor, exploración de ideas, pruebas antes de clase y ajustes que todavía no forman parte del material estable.
+These branches are for instructor preparation, idea exploration, pre-class testing, and changes that are not yet part of the stable course material.
 
-## Flujo recomendado
+## Recommended Workflow
 
-1. Preparar o experimentar en la rama `prep/class-XX`.
-2. Llevar el contenido listo a la rama `class-XX-*` correspondiente.
-3. Usar la rama `class-XX-*` durante la clase.
-4. Al terminar la clase, mergear la rama `class-XX-*` en `main`.
+1. Prepare or experiment on the `prep/class-XX` branch.
+2. Move the completed content to the corresponding `class-XX-*` branch.
+3. Use the `class-XX-*` branch during the lecture.
+4. After the class is completed, merge the `class-XX-*` branch into `main`.
 
-De esta forma, `main` siempre queda como la versión estable más reciente del proyecto, mientras que las ramas de clase conservan referencias claras para los alumnos.
+This keeps `main` as the latest stable version of the project, while the class branches remain clear references for students.
